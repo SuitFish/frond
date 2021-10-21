@@ -4,7 +4,11 @@ import router from './router'
 import './plugins/element.js'
 import axios from 'axios'
 
+import './assets/css/global.css'
+
 Vue.prototype.$ajax = axios
+
+// 带上token
 
 Vue.config.productionTip = false
 
